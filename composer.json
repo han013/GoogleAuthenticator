@@ -1,0 +1,16 @@
+{
+    "name": "hanhan/google-authenticator",
+    "description": "Google身份验证器,Google两步验证,Google Authenticator, 2-factor authentication",
+    "autoload": {
+        "psr-4": {
+            "Hanhan\\GoogleAuthenticator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "张憨憨",
+            "email": "15175809883@163.com"
+        }
+    ],
+    "require": {}
+}
