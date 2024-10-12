@@ -1,9 +1,12 @@
 {
     "name": "hanhan/google-authenticator",
-    "description": "Google身份验证器,Google两步验证,Google Authenticator, 2-factor authentication",
+    "description": "Google身份验证器,Google两步验证, Google Authenticator，Google Authenticator 2-factor authentication",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["Google Authenticator php","谷歌两步验证","两步验证","Authenticator","GoogleAuthenticator", "TOTP", "rfc6238"],
     "autoload": {
         "psr-4": {
-            "Hanhan\\GoogleAuthenticator\\": "src/"
+            "Hanhan\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +15,7 @@
             "email": "15175809883@163.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.6"
+    }
 }
