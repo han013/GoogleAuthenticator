@@ -1,4 +1,5 @@
 <?php
+namespace hanhan;
 
 /**
  * PHP Class for handling Google Authenticator 2-factor authentication.
